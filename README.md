@@ -2,6 +2,12 @@
 
 go mod init go-cache
 
+## 使用方式
+demo: 运行main.go
+
+引入使用：
+lru.New(系统容量, 回调函数)
+
 ## v1.1 基础框架
 缓存淘汰类型
 - FIFO 先入先出
